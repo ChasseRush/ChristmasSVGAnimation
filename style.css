@@ -175,3 +175,19 @@ footer a:hover {
   left: 0;
   animation: move-truck 4s linear 0s;
 }
+
+.tree-marg {
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  top: 50%;
+}
+
+#Star {
+  animation-delay: 2.5s;
+}
+
+.lights {
+  animation-delay: 1.75s;
+}

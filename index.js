@@ -127,6 +127,14 @@ $box.click(function() {
         display: "none"
       },
       "-=.2"
+    )
+    .to(
+      ".tree-marg",
+      0.1,
+      {
+        display: "block"
+      },
+      "+=.1"
     );
 
   tlOpenPresent.play();
